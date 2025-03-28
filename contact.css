@@ -1,0 +1,128 @@
+
+.contact-section {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #eef2ff;
+}
+
+
+.section-header {
+    margin-bottom: 20px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.section-subtitle {
+    color: #E34C80;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+
+
+.section-description {
+    font-size: 16px;
+    color: #666;
+}
+
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    text-align: right;
+}
+
+.contact-info p {
+    color: #555;
+}
+
+.contact-info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+}
+
+.contact-info li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.contact-info li div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon-box {
+    width: 40px;
+    height: 40px;
+    background-color: #E34C80;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: right;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    color: #E34C80;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #1e40af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1e3a8a;
+}
